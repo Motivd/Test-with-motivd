@@ -1,14 +1,7 @@
-import Head from 'next/head';
+import React from 'react';
 
-function HomePage() {
-  return (
-    <div>
-      <Head>
-        <title>TODOODO App</title>
-      </Head>
-      <h1>Welcome to the TODOODO App</h1>
-    </div>
-  );
+function Home() {
+  return <div>Welcome to TODOODO!</div>;
 }
 
-export default HomePage;
+export default Home;
