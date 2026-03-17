@@ -1,0 +1,12 @@
+{
+  "buildCommand": "next build",
+  "devCommand": "next dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "outputDirectory": ".next",
+  "env": {
+    "NEXT_PUBLIC_APP_NAME": "@todoodo_app_name",
+    "NEXT_PUBLIC_APP_URL": "@todoodo_app_url",
+    "API_SECRET_KEY": "@todoodo_api_secret"
+  }
+}
