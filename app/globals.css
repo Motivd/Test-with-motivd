@@ -1,0 +1,9 @@
+:root {
+  --foreground: #0a0a0a;
+  --muted-foreground: #737373;
+}
+
+body {
+  color: var(--foreground);
+  font-family: system-ui, sans-serif;
+}
