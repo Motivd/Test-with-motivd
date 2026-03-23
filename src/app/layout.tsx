@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
-import './globals.css'
+import '../styles/globals.css'
 
 export const metadata: Metadata = {
-  title: 'TODOODO - Task Management',
-  description: 'A refined task management application',
+  title: 'Hello World App',
+  description: 'A simple hello world page',
 }
 
 export default function RootLayout({
@@ -13,9 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-gradient-to-br from-slate-50 to-slate-100 min-h-screen">
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   )
 }
